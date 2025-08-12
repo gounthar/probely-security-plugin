@@ -7,7 +7,7 @@ import com.cloudbees.plugins.credentials.domains.DomainRequirement;
 import hudson.model.Item;
 import hudson.model.Run;
 import hudson.security.ACL;
-import org.acegisecurity.Authentication;
+import org.springframework.security.core.Authentication;
 import org.jenkinsci.plugins.plaincredentials.StringCredentials;
 
 public class CredentialsUtils {
